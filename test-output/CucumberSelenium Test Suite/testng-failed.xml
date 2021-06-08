@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CucumberSelenium Test Suite]">
+  <test name="UI Test(failed)">
+    <classes>
+      <class name="com.tmos.api.runner.APITestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.tmos.api.runner.APITestRunner -->
+      <class name="Runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Runner.TestRunner -->
+    </classes>
+  </test> <!-- UI Test(failed) -->
+  <test name="API Test(failed)">
+    <classes>
+      <class name="com.tmos.api.runner.APITestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="1 2"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.tmos.api.runner.APITestRunner -->
+      <class name="Runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Runner.TestRunner -->
+    </classes>
+  </test> <!-- API Test(failed) -->
+</suite> <!-- Failed suite [CucumberSelenium Test Suite] -->

@@ -1,0 +1,12 @@
+2020-08-03 13:08:342 INFO  LoginStepDef:63 - username admin123@gmail.com password :Admin@123
+2020-08-03 13:08:849 INFO  SetupTeardown:105 - After login user should be able to create a new Account. is Passed
+2020-08-03 13:08:355 INFO  LoginStepDef:63 - username admin123@gmail.com password :Admin@123
+2020-08-03 13:08:266 INFO  SetupTeardown:105 - After login user user should be able to do fund transfer is Passed
+2020-08-03 13:08:853 INFO  LoginStepDef:63 - username admin123@gmail.com password :Admin@123
+2020-08-03 13:08:417 INFO  SetupTeardown:105 - After login user user should be able to do fund transfer is Passed
+2020-08-03 13:08:565 INFO  LoginStepDef:63 - username admin123@gmail.com password :Admin@123
+2020-08-03 13:08:376 INFO  SetupTeardown:105 - Login with correct username and password is Passed
+2020-08-03 13:08:625 INFO  LoginStepDef:70 - username admin123@gmail.com password :Admin
+2020-08-03 13:08:187 INFO  SetupTeardown:105 - Login with Invalid credentials is Passed
+2020-08-03 13:08:235 INFO  LoginStepDef:70 - username admin@gmail.com password :Admin@123
+2020-08-03 13:08:825 INFO  SetupTeardown:105 - Login with Invalid credentials is Passed
