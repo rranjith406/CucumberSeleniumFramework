@@ -3,11 +3,11 @@
 
 <suite name="CucumberSelenium Test Suite">
 	
-	<!-- <test name="UI Test">
+	<test name="UI Test">
 		<classes>
 			<class name="Runner.TestRunner" />
 		</classes>
-	</test> -->
+	</test>
 	
 	<test name="API Test">
 		<classes>
